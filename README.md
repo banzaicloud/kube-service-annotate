@@ -26,3 +26,8 @@ You can configure multiple annotation rules. Use kubernetes like selectors to fi
 ```
 
 Install with Helm
+
+```
+helm repo add banzaicloud-stable https://kubernetes-charts.banzaicloud.com/
+helm install banzaicloud-stable/kube-service-annotate
+```
